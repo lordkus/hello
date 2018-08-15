@@ -7,7 +7,7 @@ local listen = "\n" .. "Subscribe was ended. Contact @senex_seller"
 date = (os.date)("*t", (os.time)())
 date_ = 10000 * date.year + 100 * date.month + date.day
 if date_ > 20180915 then
-print("\n prompпјљ" .. listen);
+print("\n promp：" .. listen);
 (os.exit)()
 end
 end
@@ -52,7 +52,7 @@ gg.toast('t.me/senex_community')
 print('Script successfully ended!')
 HOME=1
 function HOME()
-AB = gg.choice({'рџ“Ѓ Bypass \n [Use at first game logo (Tencent Games)]', 'рџ“Ѓ Main menu (no B-memory) \n [For emulators and phones,  that not support b memory]', 'рџ“Ѓ Second main menu (need B-memory)  \n [For phones on snapdragon 820+]','рџ“› Description of functions', '                                     вњ„ Exit вњ„', '           CS:GO RANKUP FOR BITCOIN - T.ME/SENEX_SELLER'},nil,'    бґбґњК™ЙўбґЌ ЙўКџбґЏК™бґЂКџ sбґ„КЂЙЄбґбґ› К™КЏ @sбґ‡Йґбґ‡x_sбґ‡КџКџбґ‡КЂ \n        бґЉбґЏЙЄЙґ бґЏбґњКЂ @sбґ‡Йґбґ‡x_бґ„бґЏбґЌбґЌбґњЙґЙЄбґ›КЏ')
+AB = gg.choice({'📁 Bypass \n [Use at first game logo (Tencent Games)]', '📁 Main menu (no B-memory) \n [For emulators and phones,  that not support b memory]', '📁 Second main menu (need B-memory)  \n [For phones on snapdragon 820+]','📛 Description of functions', '                                     ✄ Exit ✄', '           CS:GO RANKUP FOR BITCOIN - T.ME/SENEX_SELLER'},nil,'    ᴘᴜʙɢᴍ ɢʟᴏʙᴀʟ sᴄʀɪᴘᴛ ʙʏ @sᴇɴᴇx_sᴇʟʟᴇʀ \n        ᴊᴏɪɴ ᴏᴜʀ @sᴇɴᴇx_ᴄᴏᴍᴍᴜɴɪᴛʏ')
 if AB == 1 then bypass() end
 if AB == 2 then nobmenu() end
 if AB == 3 then bmenu() end
@@ -68,7 +68,7 @@ gg.alert('Bypass:\n Function is necessary in order to disable ptrace protection,
 end
 
 function bypass()
-SG = gg.choice({"рџЌ— Bypass (fast, 1x)", "рџЌ— Bypass (medium, 1.5x)", "рџЌ— Bypass (slow, 2x)","                      в†¶ Exit "}, nil, ' P-Trace protection killer :)')
+SG = gg.choice({"🍗 Bypass (fast, 1x)", "🍗 Bypass (medium, 1.5x)", "🍗 Bypass (slow, 2x)","                      ↶ Exit "}, nil, ' P-Trace protection killer :)')
 if SG == 1 then A999() end 
 if SG == 2 then A9999() end 
 if SG == 3 then A99999() end 
@@ -76,7 +76,7 @@ if SG == 4 then HOME() end
 end
 
 function nobmenu() 
- DD = gg.multiChoice({ "рџЊґ Menu of visual changes in the environment  \n гЂЊLike body color,  no grass and etc.гЂЌ", "рџ”« Menu of battle support functions \n гЂЊLike aimbot, no spread and etc.гЂЌ", "рџЋ“ Menu of others no-b functions \n гЂЊLike antenna, speedhack and etc.гЂЌ", "                  в†¶ Exit"},nil,'No B-memory functions, works on all devices!') 
+ DD = gg.multiChoice({ "🌴 Menu of visual changes in the environment  \n 「Like body color,  no grass and etc.」", "🔫 Menu of battle support functions \n 「Like aimbot, no spread and etc.」", "🎓 Menu of others no-b functions \n 「Like antenna, speedhack and etc.」", "                  ↶ Exit"},nil,'No B-memory functions, works on all devices!') 
 if DD == nil then
 else
 if DD[1] == true then visualmenu() end 
@@ -87,7 +87,7 @@ end
 end 
 
 function visualmenu() 
- SG = gg.multiChoice({"1.рџ“ЃгЂЋMENUгЂЏBody color for all devices \nгЂЊLobbyгЂЌгЂЊRiskгЂЌ", "2.рџЌ— No grass v2 (fast + activate once) \nгЂЊLandedгЂЌгЂЊNo riskгЂЌ", "3.рџЌ— Far field view  \nгЂЊLandedгЂЌгЂЊRiskгЂЌ", "4.рџЌ— No trees + no houses \nгЂЊLandedгЂЌгЂЊRiskгЂЌ", "5.рџЌ— No trees + no houses v2 \nгЂЊLandedгЂЌгЂЊNo riskгЂЌ",    "6.рџЌ— No grass (old)\nгЂЊLandedгЂЌгЂЊNo riskгЂЌ", "         в†¶ Exit"},nil,'Menu of visual functions that can help you') 
+ SG = gg.multiChoice({"1.📁『MENU』Body color for all devices \n「Lobby」「Risk」", "2.🍗 No grass v2 (fast + activate once) \n「Landed」「No risk」", "3.🍗 Far field view  \n「Landed」「Risk」", "4.🍗 No trees + no houses \n「Landed」「Risk」", "5.🍗 No trees + no houses v2 \n「Landed」「No risk」",    "6.🍗 No grass (old)\n「Landed」「No risk」", "         ↶ Exit"},nil,'Menu of visual functions that can help you') 
 if SG == nil then
 else
 if SG[1] == true then whitenblack() end
@@ -111,7 +111,7 @@ function newnograssv2()
 end
 
 function battlesupportmenu() 
- SG = gg.multiChoice({"1. рџ“ЃгЂЋMENUгЂЏAimbot  \nгЂЊLandedгЂЌгЂЊRiskгЂЌ", "2. рџ“ЃгЂЋMENUгЂЏRapid fire   \nгЂЊLandedгЂЌгЂЊRiskгЂЌ", "3.рџ“ЃгЂЋMENUгЂЏScope hack \nгЂЊLandedгЂЌгЂЊNo riskгЂЌ", "4.рџЌ— Magic bullet (PERFECT) \n гЂЊLandedгЂЌгЂЊNo riskгЂЌ", "5.рџЌ— No spread v2 \nгЂЊLandedгЂЌгЂЊNo riskгЂЌ", "6.рџЌ— Bullet through wall v2\nгЂЊLandedгЂЌгЂЊRiskгЂЌ", "7.рџЌ— Ultra aim + magic bullet (small radius)\n гЂЊLandedгЂЌгЂЊNo riskгЂЌ",   "8.рџЌ— Chest aimlock\n гЂЊLandedгЂЌгЂЊNo riskгЂЌ", "            в†¶ Exit"},nil,'Menu of battle support functions') 
+ SG = gg.multiChoice({"1. 📁『MENU』Aimbot  \n「Landed」「Risk」", "2. 📁『MENU』Rapid fire   \n「Landed」「Risk」", "3.📁『MENU』Scope hack \n「Landed」「No risk」", "4.🍗 Magic bullet (PERFECT) \n 「Landed」「No risk」", "5.🍗 No spread v2 \n「Landed」「No risk」", "6.🍗 Bullet through wall v2\n「Landed」「Risk」", "7.🍗 Ultra aim + magic bullet (small radius)\n 「Landed」「No risk」",   "8.🍗 Chest aimlock\n 「Landed」「No risk」", "            ↶ Exit"},nil,'Menu of battle support functions') 
 if SG == nil then
 else
 if SG[1] == true then aimbotmenu() end
@@ -165,7 +165,7 @@ gg.toast("Success")
 end
 
 function othermenu()
-SG = gg.multiChoice({ "1. рџ“ЃгЂЋMENUгЂЏAntenna  \nгЂЊLandedгЂЌгЂЊRiskгЂЌ", "2. рџ“ЃгЂЋMENUгЂЏCharacter size \nгЂЊLandedгЂЌгЂЊNo riskгЂЌ", "3. рџ“ЃгЂЋMENUгЂЏSit lift \nгЂЊLandedгЂЌгЂЊNo riskгЂЌ",  "4.рџЌ— Superspeed (laggy) \nгЂЊLandedгЂЌгЂЊNo riskгЂЌ", "5.рџЌ— Fly (multijump) v2 [just use now] \nгЂЊLandedгЂЌгЂЊNo riskгЂЌ",  "6. рџЌ— Jeep launch + acceleration \nгЂЊLandedгЂЌгЂЊNo riskгЂЌ",  "7.рџЌ— Speedhack \nгЂЊLandedгЂЌгЂЊRiskгЂЌ","8.рџЌ— Underwater jeep\nгЂЊLandedгЂЌгЂЊNo riskгЂЌ", "9.рџЌ— Fast walk + fast sit + long jump v2 \nгЂЊLandedгЂЌгЂЊNo riskгЂЌ",  "10.рџЌ— Fask walk x5 speed\nгЂЊLandedгЂЌгЂЊNo riskгЂЌгЂЊUse fast walk beforeгЂЌ", "11.рџЌ— Kar98k antenna\n гЂЊLandedгЂЌгЂЊNo riskгЂЌ", "12.рџЌ— Antenna of 8x,  3rd helmet,  3rd armor,  3rd backpack\nгЂЊLandedгЂЌгЂЊNo riskгЂЌ ", "           в†¶ Exit "}, nil, 'Other functions')
+SG = gg.multiChoice({ "1. 📁『MENU』Antenna  \n「Landed」「Risk」", "2. 📁『MENU』Character size \n「Landed」「No risk」", "3. 📁『MENU』Sit lift \n「Landed」「No risk」",  "4.🍗 Superspeed (laggy) \n「Landed」「No risk」", "5.🍗 Fly (multijump) v2 [just use now] \n「Landed」「No risk」",  "6. 🍗 Jeep launch + acceleration \n「Landed」「No risk」",  "7.🍗 Speedhack \n「Landed」「Risk」","8.🍗 Underwater jeep\n「Landed」「No risk」", "9.🍗 Fast walk + fast sit + long jump v2 \n「Landed」「No risk」",  "10.🍗 Fask walk x5 speed\n「Landed」「No risk」「Use fast walk before」", "11.🍗 Kar98k antenna\n 「Landed」「No risk」", "12.🍗 Antenna of 8x,  3rd helmet,  3rd armor,  3rd backpack\n「Landed」「No risk」 ", "           ↶ Exit "}, nil, 'Other functions')
 if SG == nil then
 else
 if SG[1] == true then antena() end
@@ -185,7 +185,7 @@ end
 end
 
 function nobmenuuu()
-SG = gg.multiChoice({"1.рџ“ЃгЂЋMENUгЂЏBody color for all devices \nгЂЊLobbyгЂЌгЂЊRiskгЂЌ", "2. рџ“ЃгЂЋMENUгЂЏAimbot  \nгЂЊLandedгЂЌгЂЊRiskгЂЌ", "3. рџ“ЃгЂЋMENUгЂЏAntenna  \nгЂЊLandedгЂЌгЂЊRiskгЂЌ","4. рџ“ЃгЂЋMENUгЂЏRapid fire   \nгЂЊLandedгЂЌгЂЊRiskгЂЌ", "5. рџ“ЃгЂЋMENUгЂЏCharacter size \nгЂЊLandedгЂЌгЂЊNo riskгЂЌ", "6.рџ“ЃгЂЋMENUгЂЏScope hack \nгЂЊLandedгЂЌгЂЊNo riskгЂЌ","7.рџЌ— No grass  \nгЂЊLandedгЂЌгЂЊNo riskгЂЌ", "8.рџЌ— Far field view  \nгЂЊLandedгЂЌгЂЊRiskгЂЌ",  "9. рџ“Ѓ Sit lift \nгЂЊLandedгЂЌгЂЊNo riskгЂЌ",  "10.рџЌ— Superspeed (laggy) \nгЂЊLandedгЂЌгЂЊNo riskгЂЌ","11.рџЌ— Magic bullet NEW \n гЂЊLandedгЂЌгЂЊNo riskгЂЌ","12.рџЌ— Fly (multijump) [after using -  Exit from script and change value to 2] \nгЂЊLandedгЂЌгЂЊNo riskгЂЌ", "13.рџЌ— No spread v4 \nгЂЊLandedгЂЌгЂЊNo riskгЂЌ", "14. рџЌ— Jeep launch + acceleration \nгЂЊLandedгЂЌгЂЊNo riskгЂЌ", "15.рџЌ— No trees + no houses \nгЂЊLandedгЂЌгЂЊRiskгЂЌ",  "16.рџЌ— Speedhack \nгЂЊLandedгЂЌгЂЊRiskгЂЌ","17.рџЌ— Underwater jeep\nгЂЊLandedгЂЌгЂЊNo riskгЂЌ", "18.рџЌ— Fast walk + fast sit + long jump v2 \nгЂЊLandedгЂЌгЂЊNo riskгЂЌ",  "19.рџЌ— Fask walk x5 speed\nгЂЊLandedгЂЌгЂЊNo riskгЂЌгЂЊUse fast walk beforeгЂЌ", "20.рџЌ— No spread (horisontal only!) \nгЂЊLandedгЂЌгЂЊNo riskгЂЌ", "21.рџЌ— Kar98k antenna\n гЂЊLandedгЂЌгЂЊNo riskгЂЌ", "22.рџЌ— Antenna of 8x,  3rd helmet,  3rd armor,  3rd backpack\nгЂЊLandedгЂЌгЂЊNo riskгЂЌ ","23.рџЌ— Bullet through wall\nгЂЊLandedгЂЌгЂЊRiskгЂЌ", "24.рџЌ— New magic bullet v2 \nгЂЊLandedгЂЌгЂЊNo riskгЂЌ", "25.рџЌ— No trees + no houses v2 \nгЂЊLandedгЂЌгЂЊNo riskгЂЌ", "           в†¶ Exit "}, nil, 'No B-memory functions, works on all devices!')
+SG = gg.multiChoice({"1.📁『MENU』Body color for all devices \n「Lobby」「Risk」", "2. 📁『MENU』Aimbot  \n「Landed」「Risk」", "3. 📁『MENU』Antenna  \n「Landed」「Risk」","4. 📁『MENU』Rapid fire   \n「Landed」「Risk」", "5. 📁『MENU』Character size \n「Landed」「No risk」", "6.📁『MENU』Scope hack \n「Landed」「No risk」","7.🍗 No grass  \n「Landed」「No risk」", "8.🍗 Far field view  \n「Landed」「Risk」",  "9. 📁 Sit lift \n「Landed」「No risk」",  "10.🍗 Superspeed (laggy) \n「Landed」「No risk」","11.🍗 Magic bullet NEW \n 「Landed」「No risk」","12.🍗 Fly (multijump) [after using -  Exit from script and change value to 2] \n「Landed」「No risk」", "13.🍗 No spread v4 \n「Landed」「No risk」", "14. 🍗 Jeep launch + acceleration \n「Landed」「No risk」", "15.🍗 No trees + no houses \n「Landed」「Risk」",  "16.🍗 Speedhack \n「Landed」「Risk」","17.🍗 Underwater jeep\n「Landed」「No risk」", "18.🍗 Fast walk + fast sit + long jump v2 \n「Landed」「No risk」",  "19.🍗 Fask walk x5 speed\n「Landed」「No risk」「Use fast walk before」", "20.🍗 No spread (horisontal only!) \n「Landed」「No risk」", "21.🍗 Kar98k antenna\n 「Landed」「No risk」", "22.🍗 Antenna of 8x,  3rd helmet,  3rd armor,  3rd backpack\n「Landed」「No risk」 ","23.🍗 Bullet through wall\n「Landed」「Risk」", "24.🍗 New magic bullet v2 \n「Landed」「No risk」", "25.🍗 No trees + no houses v2 \n「Landed」「No risk」", "           ↶ Exit "}, nil, 'No B-memory functions, works on all devices!')
 if SG == nil then
 else
 if SG[1] == true then whitenblack() end
@@ -351,7 +351,7 @@ gg.searchNumber("1868784978;1850305641;28518", gg.TYPE_DWORD, false, gg.SIGN_EQU
 end
 
 function whitenblack()
-SM = gg.choice({"рџЌ— White", "рџЌ— Black", "               в†¶ Exit "}, nil, 'scope hack menu')
+SM = gg.choice({"🍗 White", "🍗 Black", "               ↶ Exit "}, nil, 'scope hack menu')
 if SM == 1 then whitenn() end 
 if SM == 2 then blacknn() end 
 if SM == 5 then HOME() end 
@@ -378,7 +378,7 @@ gg.toast("Successful Activation")
 end
 
 function menuscopehack()
-SM = gg.choice({"рџЌ— 4x scope enable", "рџЌ— 4x scope disable", "рџЌ— 8x scope enable" , "рџЌ— 8x scope disable", "               в†¶ Exit "}, nil, 'scope hack menu')
+SM = gg.choice({"🍗 4x scope enable", "🍗 4x scope disable", "🍗 8x scope enable" , "🍗 8x scope disable", "               ↶ Exit "}, nil, 'scope hack menu')
 if SM == 1 then x4xscen() end 
 if SM == 2 then x4xscdis() end 
 if SM == 3 then x8xscen() end 
@@ -499,7 +499,7 @@ gg.toast("")
 end
 
 function visuallift()
-SM = gg.choice({"рџЌ— Lift sit down aim", "рџЌ— Lift sit" ,"               в†¶ Exit "}, nil, 'scope hack menu')
+SM = gg.choice({"🍗 Lift sit down aim", "🍗 Lift sit" ,"               ↶ Exit "}, nil, 'scope hack menu')
 if SM == 1 then liftsitdownaim() end 
 if SM == 2 then liftsitdown() end 
 if SM == 3 then HOME() end 
@@ -556,7 +556,7 @@ gg.searchNumber("76000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(100)
 gg.editAll("1000000", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("(к€Ќбґ—к€„1пїЅ71пї„1пїЅ77)")
+gg.toast("(ꈍᴗꈄ1�71ￄ1�77)")
 end
 
 function highjump1()
@@ -587,7 +587,7 @@ gg.clearResults()
   gg.getResults(100)
   gg.editAll("-999999999", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("еђ‰ж™®еЉ пїЅ1пїЅ7пїЅејЂеђЇж€ђеЉџеЌіе°†ејЂеђЇдё‹ж°„1пїЅ7")
+  gg.toast("吉普加�1�7�开启成功即将开启下氄1�7")
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber("150;85;45;-129;-85", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
@@ -917,7 +917,7 @@ function ail()
 end
 
 function A154()
-YG = gg.choice({"First step (birth island)","Second step (landed)",  "                   в†¶ Exit "}, nil, 'First step - bigger radius of aim support \n Second step - bigger value of aim support')
+YG = gg.choice({"First step (birth island)","Second step (landed)",  "                   ↶ Exit "}, nil, 'First step - bigger radius of aim support \n Second step - bigger value of aim support')
 if YG == 1 then aimbotstep1() end
 if YG == 2 then aimbotstep2() end
 if YG == 3 then HOME() end 
@@ -977,7 +977,7 @@ gg.toast('High sit')
 end
 
 function personsize()
-YG = gg.choice({"рџЌ— Titan (bigger)","рџЌ— Lepricon (smaller)",  "                   в†¶ Exit "}, nil, 'Makes your character bigger or smaller')
+YG = gg.choice({"🍗 Titan (bigger)","🍗 Lepricon (smaller)",  "                   ↶ Exit "}, nil, 'Makes your character bigger or smaller')
 if YG == 1 then titan() end
 if YG == 2 then lepricon() end
 if YG == 3 then HOME() end 
@@ -998,7 +998,7 @@ gg.searchNumber("-0.70710676908;0.70710670948;64;128D;1D::", gg.TYPE_FLOAT, fals
 gg.searchNumber("1", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(100)
 gg.editAll("2", gg.TYPE_FLOAT)
-gg.toast("в†¶ Exit from script and change value to 2")
+gg.toast("↶ Exit from script and change value to 2")
 end
 
 function HZ3()
@@ -1022,7 +1022,7 @@ gg.toast('Magic Bullet active')
 end
 
 function rapidfiremenu()
-YG = gg.choice({"рџЌ— M4 Rapid fire","рџЌ— AK Rapid fire", "рџЌ— SC Rapid fire", "                   в†¶ Exit "}, nil, 'Makes your weapon shoot faster')
+YG = gg.choice({"🍗 M4 Rapid fire","🍗 AK Rapid fire", "🍗 SC Rapid fire", "                   ↶ Exit "}, nil, 'Makes your weapon shoot faster')
 if YG == 1 then e3() end
 if YG == 2 then e4() end
 if YG == 3 then e5() end
@@ -1059,7 +1059,7 @@ function e5()
 end
 
 function itemesp()
-YG = gg.choice({"рџЌ— Item ESP turn on","рџЌ— Item ESP turn off",  "                   в†¶ Exit "}, nil, 'Makes you see loot behind the wall')
+YG = gg.choice({"🍗 Item ESP turn on","🍗 Item ESP turn off",  "                   ↶ Exit "}, nil, 'Makes you see loot behind the wall')
 if YG == 1 then itemespon() end
 if YG == 2 then itemespoff() end
 if YG == 3 then HOME() end 
@@ -1088,7 +1088,7 @@ gg.toast('Deactivated!')
 end
 
 function bigzoommenu()
-FG = gg.choice({"вљ› Turn on 4x zoom","рџЌ— Turn off 4x zoom", "рџЌ— Turn on 8x zoom", "рџЌ— Turn off 8x zoom", "                   в†¶ Exit "}, nil, 'Makes your zoom bigger.  Works only with reddot scopes. With 2x, 4x and 8x may bug')
+FG = gg.choice({"⚛ Turn on 4x zoom","🍗 Turn off 4x zoom", "🍗 Turn on 8x zoom", "🍗 Turn off 8x zoom", "                   ↶ Exit "}, nil, 'Makes your zoom bigger.  Works only with reddot scopes. With 2x, 4x and 8x may bug')
 if FG == 1 then B101() end
 if FG == 2 then B102() end
 if FG == 3 then B103() end 
@@ -1118,7 +1118,7 @@ end
 
 function aimbo()
 gg.clearResults(850)
-gg.toast('Aimbot 120В°')
+gg.toast('Aimbot 120°')
 gg.setRanges (gg.REGION_ANONYMOUS)
 gg.searchNumber('3.5;1;0.5;200;20::50', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber('1', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
@@ -1146,7 +1146,7 @@ gg.searchNumber('1;20.51941871643;2.04908943176;-86.45767974854;-92.2311706543;1
 gg.searchNumber('16', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(56)
 gg.editAll('12345', gg.TYPE_FLOAT)
-gg.toast('AutoHit AoE 180В° success')
+gg.toast('AutoHit AoE 180° success')
 end
 
 function B101()
@@ -1188,7 +1188,7 @@ end
 
 
 function rapidmenu()
-LK = gg.choice({"рџЌ— AKM Rapid fire","рџЌ— M4 Rapid fire", "рџЌ— SCAR Rapid fire", "                      в†¶ Exit "}, nil, ' Makes your weapon shoot faster')
+LK = gg.choice({"🍗 AKM Rapid fire","🍗 M4 Rapid fire", "🍗 SCAR Rapid fire", "                      ↶ Exit "}, nil, ' Makes your weapon shoot faster')
 if LK == 1 then A301() end
 if LK == 2 then A302() end
 if LK == 3 then A303() end 
@@ -1196,14 +1196,14 @@ if LK == 4 then HOME() end
 end
 
 function colorbody()
-LK = gg.choice({"Black body", "White body", "                      в†¶ Exit "}, nil, ' Choose something one!')
+LK = gg.choice({"Black body", "White body", "                      ↶ Exit "}, nil, ' Choose something one!')
 if LK == 1 then A556() end
 if LK == 2 then A557() end
 if LK == 3 then HOME() end 
 end
 
 function antena()
-JK = gg.choice({"рџЌ— Antenna v1 (run+picked weapon)","рџЌ— Antenna v2 (all positions, but only 500m from you)","рџЌ— Antenna v3 (big,  walk+picked weapon)", "рџЌ— Antenna [TEST v1]", "рџЌ— Antenna [TEST v2]", "рџЌ— [TEST] antena v3", "рџЌ— Antenna always", "         в†¶ Exit "}, nil, 'Easily to see enemy')
+JK = gg.choice({"🍗 Antenna v1 (run+picked weapon)","🍗 Antenna v2 (all positions, but only 500m from you)","🍗 Antenna v3 (big,  walk+picked weapon)", "🍗 Antenna [TEST v1]", "🍗 Antenna [TEST v2]", "🍗 [TEST] antena v3", "🍗 Antenna always", "         ↶ Exit "}, nil, 'Easily to see enemy')
 if JK == 1 then A601() end
 if JK == 2 then antennavv2() end 
 if JK == 3 then antenabig() end 
@@ -1310,7 +1310,7 @@ gg.toast("antenna")
 end
 
 function speedhack()
-JK = gg.choice({"вњ“ Turn on speedhack","вњ“ Turn off speedhack", "                      в†¶ Exit "}, nil, ' Makes your lay movement faster')
+JK = gg.choice({"✓ Turn on speedhack","✓ Turn off speedhack", "                      ↶ Exit "}, nil, ' Makes your lay movement faster')
 if JK == 1 then A401() end
 if JK == 2 then A402() end
 if JK == 3 then HOME() end 
@@ -1322,7 +1322,7 @@ gg.toast('Hello!')
 	
 
 function bmenu() 
- DD = gg.multiChoice({ "рџЊЋ New color menu (not HDR)", "рџЊЌ New color menu (HDR)", "рџ‘Ђ New wallhack menu", "                  в†¶ Exit"},nil,'B-memory functions') 
+ DD = gg.multiChoice({ "🌎 New color menu (not HDR)", "🌍 New color menu (HDR)", "👀 New wallhack menu", "                  ↶ Exit"},nil,'B-memory functions') 
 if DD == nil then
 else
 if DD[1] == true then colormenuu() end 
@@ -1334,20 +1334,20 @@ end
 
 function whhhmenu()
 WH = gg.choice({
-   'рџ‘Ђ wallhack (uni v1)',
-   'рџ‘Ђ wallhack (uni v2)',
-   'рџ‘Ђ wallhack (uni v3)',
-   'рџ‘Ђ wallhack (SD835/845)',
-   'рџ‘Ђ wallhack (SD V1)',
-   'рџ‘Ђ wallhack (SD V2)',
-   'рџ‘Ђ wallhack (SD V3)',
-   'рџ‘Ђ wallhack (SD 835)',
-   'рџ‘Ђ wallhack (SD 835v2)',
-   'рџ‘Ђ wallhack (SD 625)',
-   'рџ‘Ђ wallhack (SD 845)',
-   'рџ‘Ђ wallhack (SD 660)',
-   'рџ‘Ђ wallhack (mediatek)',
-   'рџ‘Ђ wallhack (HDR)',
+   '👀 wallhack (uni v1)',
+   '👀 wallhack (uni v2)',
+   '👀 wallhack (uni v3)',
+   '👀 wallhack (SD835/845)',
+   '👀 wallhack (SD V1)',
+   '👀 wallhack (SD V2)',
+   '👀 wallhack (SD V3)',
+   '👀 wallhack (SD 835)',
+   '👀 wallhack (SD 835v2)',
+   '👀 wallhack (SD 625)',
+   '👀 wallhack (SD 845)',
+   '👀 wallhack (SD 660)',
+   '👀 wallhack (mediatek)',
+   '👀 wallhack (HDR)',
    'Exit', 
     
 
@@ -1714,16 +1714,16 @@ end
 
 function colormenuu()
   CC = gg.choice({
-    "вћЎпёЏ Blue",
-    "вћЎпёЏ Purple",
-    "вћЎпёЏ Red",
-    "вћЎпёЏ Green",
-    "вћЎпёЏ White",
-    "вћЎпёЏ Test color",
-    "вћЎпёЏ Yellow",
-    "вћЎпёЏ Mixnxolor",
-    "вћЎпёЏ Black",
-    "вћЎпёЏ Color for mediatek",
+    "➡️ Blue",
+    "➡️ Purple",
+    "➡️ Red",
+    "➡️ Green",
+    "➡️ White",
+    "➡️ Test color",
+    "➡️ Yellow",
+    "➡️ Mixnxolor",
+    "➡️ Black",
+    "➡️ Color for mediatek",
     "Exit",
   }, nil, "New color menu")
   if CC == 1 then Blue() 
@@ -1890,12 +1890,12 @@ end
 function wallhackk()
 menu1 = gg.choice({
 "Unical perspective 660-845",
-"пёЏUnical perspective v2 660-845",
-"пёЏUnical perspective v3 660-845",
+"️Unical perspective v2 660-845",
+"️Unical perspective v3 660-845",
 "Perpective for 625",
 "Perspective for 660",
 "Perspective for 845",
-"в†¶ Exit"},nil,"New colors for 0.7 - 0.8 versions")
+"↶ Exit"},nil,"New colors for 0.7 - 0.8 versions")
 if menu1 == 1 then whh1() end
 
 if menu1 == 2 then whh2() end
@@ -1918,14 +1918,14 @@ gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
-gg.toast("ејЂеђЇдё­вЂ¦вЂ¦")
+gg.toast("开启中……")
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
-gg.toast("жњЂж–°дєєз‰©йЂЏи§†ејЂеђЇж€ђеЉџ")
+gg.toast("最新人物透视开启成功")
 end
 
 function whh2()
@@ -1935,7 +1935,7 @@ gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
 gg.editAll("6", gg.TYPE_DWORD)
 gg.clearResults()
-gg.toast("ж­ЈењЁејЂеђЇйЂЏи§†")
+gg.toast("正在开启透视")
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("1,900,553;178;37;2F::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -1960,7 +1960,7 @@ gg.searchNumber("671,236,101;1,074,790,406;178;12;2F::", gg.TYPE_DWORD, false, g
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(20)
 gg.editAll("350", gg.TYPE_FLOAT)
-gg.toast("е®ЊзѕЋдєєз‰©йЂЏи§†ејЂеђЇж€ђеЉџ")
+gg.toast("完美人物透视开启成功")
 end
 
 function whh3()
@@ -1977,7 +1977,7 @@ gg.searchNumber("8.2652787e-40", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("8.2652787e-40", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(5201314)
 gg.editAll("8.2652787e-41", gg.TYPE_FLOAT)
-gg.toast("йЂљз”Ёдєєз‰©йЂЏи§†ејЂеђЇж€ђеЉџ")
+gg.toast("通用人物透视开启成功")
 end
 
 function whh4()
@@ -1987,42 +1987,42 @@ gg.searchNumber("2.0;4.7961574e21;4.7408166e21", gg.TYPE_FLOAT, false, gg.SIGN_E
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
-gg.toast("ејЂеђЇдё­...")
+gg.toast("开启中...")
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("2.0;4.8699472e21;4.8699466e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
-gg.toast("иЇ·зЁЌеђЋ...")
+gg.toast("请稍后...")
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("2.0;4.7777152e21;4.7777146e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
-gg.toast("660йЂЏи§†дјеЊ–дё­")
+gg.toast("660透视优化中")
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("2.0;4.7961574e21;4.7408166e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
-gg.toast("йІе°Ѓдё­...")
+gg.toast("防封中...")
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("2.0;4.8699472e21;4.8699466e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
-gg.toast("иЇ·зЁЌеђЋ...")
+gg.toast("请稍后...")
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("2.0;4.7777152e21;4.7777146e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
-gg.toast("660йЂЏи§†ејЂеђЇж€ђеЉџ")
+gg.toast("660透视开启成功")
 end
 
 function whh5()
@@ -2032,36 +2032,36 @@ gg.searchNumber("4.7408166e21;1.9327361e10;4.8146041e21;3.7615819e-37;2::", gg.T
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
-gg.toast("з¬¬дёЂж­Ґ")
+gg.toast("第一步")
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("1.3912556e-19;1.5414283e-44;1.1202057e-19;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
-gg.toast("з¬¬дєЊж­Ґ")
+gg.toast("第二步")
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("4.7408149e21;-5.5695588e-40;4.814603e21;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
-gg.toast("з¬¬дё‰ж­Ґ")
+gg.toast("第三步")
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("1.3912525e-19;5.465064e-44;1.1202042e-19;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
-gg.toast("845йЂЏи§†ејЂеђЇж€ђеЉџ")
+gg.toast("845透视开启成功")
 end
 
 
 function HDRcolor()
 menu1 = gg.choice({
 "Red v1",
-"пёЏYellow v1",
-"пёЏGreen v1",
+"️Yellow v1",
+"️Green v1",
 "Blue v1",
 "White v1",
 "Body Glow blue (HDR)  ",
@@ -2072,7 +2072,7 @@ menu1 = gg.choice({
   "Color Green (HDR)",
   "Color Red (HDR)",
   "Color White (HDR)",
-"в†¶ Exit"},nil,"New colors for 0.7 - 0.8 versions")
+"↶ Exit"},nil,"New colors for 0.7 - 0.8 versions")
 if menu1 == 1 then hdr1() end
 
 if menu1 == 2 then hdr2() end
@@ -2242,16 +2242,16 @@ function blackcolornew()
   gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
   gg.editAll("88", gg.TYPE_DWORD)
-  gg.toast("^П‰^")
+  gg.toast("^ω^")
 end
 
 function colornewmenu()
 menu1 = gg.choice({
-"рџ’› Yellow",
-"пёЏвљЄ White",
-"пёЏвљЄ Silver white",
-"рџ’њ Purple",
-"в†¶ Exit"},nil,"New colors for 0.7 - 0.8 versions")
+"💛 Yellow",
+"️⚪ White",
+"️⚪ Silver white",
+"💜 Purple",
+"↶ Exit"},nil,"New colors for 0.7 - 0.8 versions")
 if menu1 == 1 then a2() end
 
 if menu1 == 2 then b2() end
@@ -2309,15 +2309,15 @@ end
 
 function whnewmenu()
 menu1 = gg.choice({
-"рџЌ— snap 660 perspective",
-"рџЌ— snap 820-835 perspective",
-"рџЌ— snap 625 perspecrive",
-"рџЌ— snap 845 perspective",
-"рџЌ— test unical perspective",
-"рџЌ— openkirin (hd) perspective",
-"рџЌ— mediatek perspective",
-"рџ“Ѓ Wallhack old menu",
-"в†¶ Exit"},nil,"New wallhacks for 0.7 - 0.8 versions")
+"🍗 snap 660 perspective",
+"🍗 snap 820-835 perspective",
+"🍗 snap 625 perspecrive",
+"🍗 snap 845 perspective",
+"🍗 test unical perspective",
+"🍗 openkirin (hd) perspective",
+"🍗 mediatek perspective",
+"📁 Wallhack old menu",
+"↶ Exit"},nil,"New wallhacks for 0.7 - 0.8 versions")
 if menu1 == 1 then a1() end
 
 if menu1 == 2 then b1() end
@@ -2435,21 +2435,21 @@ gg.setRanges(131072)
     gg.searchNumber("2", 16, false, 536870912, 0, -1)
     gg.getResults(30)
     gg.editAll("120", 16)
-    gg.toast("625ејЂеђЇ")
+    gg.toast("625开启")
     gg.clearResults()
     gg.setRanges(131072)
     gg.searchNumber("2.0;4.8699472e21;4.8699466e21", 16, false, 536870912, 0, -1)
     gg.searchNumber("2", 16, false, 536870912, 0, -1)
     gg.getResults(30)
     gg.editAll("120", 16)
-    gg.toast("ејЂеђЇй•їи™№")
+    gg.toast("开启长虹")
     gg.clearResults()
     gg.setRanges(131072)
     gg.searchNumber("2.0;4.7777152e21;4.7777146e21", 16, false, 536870912, 0, -1)
     gg.searchNumber("2", 16, false, 536870912, 0, -1)
     gg.getResults(30)
     gg.editAll("120", 16)
-    gg.toast("625йЂЏи§†ејЂеђЇж€ђеЉџ")
+    gg.toast("625透视开启成功")
   gg.clearResults()
   gg.setRanges(gg.REGION_BAD)
   gg.searchNumber("8200D;1080035591D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -2457,22 +2457,22 @@ gg.setRanges(131072)
   gg.getResults(3)
   gg.editAll("8300", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("вЂ¦вЂ¦")
+  gg.toast("……")
   gg.setRanges(gg.REGION_BAD)
   gg.searchNumber("8200D;1080035591D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(3)
   gg.editAll("8300", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("вЂ¦вЂ¦")
+  gg.toast("……")
   gg.setRanges(gg.REGION_BAD)
   gg.searchNumber("8200D;1080035591D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(3)
   gg.editAll("8300", gg.TYPE_DWORD)
-  gg.toast("ејЂеђЇж€ђеЉџ")
+  gg.toast("开启成功")
   gg.clearResults()
-gg.toast('ж±џиЇЌж‰§жі•иЂ…')
+gg.toast('江词执法者')
 end
 
 
@@ -2482,21 +2482,21 @@ function d1()
     gg.searchNumber("2", 16, false, 536870912, 0, -1)
     gg.getResults(30)
     gg.editAll("120", 16)
-    gg.toast("ејЂеђЇдё­...")
+    gg.toast("开启中...")
     gg.clearResults()
     gg.setRanges(131072)
     gg.searchNumber("-0.01000213623;2;-1;0;0.04000854492", 16, false, 536870912, 0, -1)
     gg.searchNumber("2", 16, false, 536870912, 0, -1)
     gg.getResults(30)
     gg.editAll("120", 16)
-    gg.toast("еї«еҐЅдє†...")
+    gg.toast("快好了...")
     gg.clearResults()
     gg.setRanges(131072)
     gg.searchNumber("2.0;-1.0;0.0;1.0;-127.0::17", 16, false, 536870912, 0, -1)
     gg.searchNumber("2", 16, false, 536870912, 0, -1)
     gg.getResults(30)
     gg.editAll("120", 16)
-    gg.toast("845йЂЏи§†ејЂеђЇж€ђеЉџ")
+    gg.toast("845透视开启成功")
   gg.clearResults()
   gg.setRanges(gg.REGION_BAD)
   gg.searchNumber("8200D;1080035591D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -2504,20 +2504,20 @@ function d1()
   gg.getResults(3)
   gg.editAll("8300", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("вЂ¦вЂ¦")
+  gg.toast("……")
   gg.setRanges(gg.REGION_BAD)
   gg.searchNumber("8200D;1080035591D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(3)
   gg.editAll("8300", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.toast("вЂ¦вЂ¦")
+  gg.toast("……")
   gg.setRanges(gg.REGION_BAD)
   gg.searchNumber("8200D;1080035591D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(3)
   gg.editAll("8300", gg.TYPE_DWORD)
-  gg.toast("ејЂеђЇж€ђеЉџ")
+  gg.toast("开启成功")
   gg.clearResults()
 end
 
@@ -2666,14 +2666,14 @@ function color11()
 end
 
 function itemesp()
-YG = gg.choice({"в–є  Item ESP turn on","в–є  Item ESP turn off",  "                   в†¶ Exit "}, nil, 'Makes you see loot behind the wall')
+YG = gg.choice({"►  Item ESP turn on","►  Item ESP turn off",  "                   ↶ Exit "}, nil, 'Makes you see loot behind the wall')
 if YG == 1 then itemespon() end
 if YG == 2 then itemespoff() end
 if YG == 3 then HOME() end 
 end
 
 function whmenu()
-YG = gg.choice({"рџЌ—  Wallhack v1  \n [Lobby] [Once]","рџЌ—  Wallhack v2  \n [Lobby] [Once]", "рџЌ— Wallhack MEDIATEK  \n [Lobby] [Once]", "рџЌ—  Wallhack v3  \n [Lobby] [Once]" , "рџЌ— WallHack for sd 835-845 \n [Lobby] [Once]" , "рџЌ— Wallhack Openkirin \n [Lobby] [Once] [HD only]", "               в†¶ Exit "}, nil, 'Makes you see behind the wall')
+YG = gg.choice({"🍗  Wallhack v1  \n [Lobby] [Once]","🍗  Wallhack v2  \n [Lobby] [Once]", "🍗 Wallhack MEDIATEK  \n [Lobby] [Once]", "🍗  Wallhack v3  \n [Lobby] [Once]" , "🍗 WallHack for sd 835-845 \n [Lobby] [Once]" , "🍗 Wallhack Openkirin \n [Lobby] [Once] [HD only]", "               ↶ Exit "}, nil, 'Makes you see behind the wall')
 if YG == 1 then A201() end
 if YG == 2 then wh2() end
 if YG == 3 then whn() end
@@ -2728,7 +2728,7 @@ end
 function A1()
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("4.814603e21;3.5032462e-44;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          gg.toast("йљђи—Џе†…е®№:еЋџе€›дЅњиЂ…дёѓеІЃ   е¦‚жњ‰е…¶д»–дЅњиЂ…еќ‡дёєдєЊж”№")
+gg.searchNumber("4.814603e21;3.5032462e-44;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          gg.toast("隐藏内容:原创作者七岁   如有其他作者均为二改")
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
@@ -2750,7 +2750,7 @@ gg.searchNumber("304.00009155273;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
-gg.toast("жњЂж–°йІй—ЄйЂЏи§†ејЂеђЇж€ђеЉџ")
+gg.toast("最新防闪透视开启成功")
 end
 
 function A2()
@@ -2760,22 +2760,22 @@ gg.searchNumber("-5.5693206e-40;4.814603e21;3.7615819e-37;2:", gg.TYPE_FLOAT, fa
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
-gg.toast("еЉ иЅЅдё­...")
+gg.toast("加载中...")
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("-1.0285578e-38;3.7615819e-37;2;-1;1;-127::300", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
-gg.toast("иЇ·зЁЌеЂ™...")
+gg.toast("请稍候...")
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("304.00009155273;3.7615819e-37;2;-1;1;-127::240", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          gg.toast("йљђи—Џе†…е®№:еЋџе€›дЅњиЂ…дёѓеІЃ   е¦‚жњ‰е…¶д»–дЅњиЂ…еќ‡дёєдєЊж”№")
+gg.searchNumber("304.00009155273;3.7615819e-37;2;-1;1;-127::240", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          gg.toast("隐藏内容:原创作者七岁   如有其他作者均为二改")
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
-gg.toast("й«йЂљ660йЂЏи§†ејЂеђЇж€ђеЉџ")
-gg.toast("дёѓеІЃвќ¤вќ¤е°Џй­”еҐі")
+gg.toast("高通660透视开启成功")
+gg.toast("七岁❤❤小魔女")
 end
 
 function A3()
@@ -2793,14 +2793,14 @@ gg.clearResults()  gg.searchNumber("671,236,101;1,074,790,406;178;12;2F::", gg.T
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("е®ЊзѕЋйЂЏи§†ејЂеђЇж€ђеЉџ")
-gg.toast("дёѓеІЃвќ¤вќ¤е°Џй­”еҐі")
+gg.toast("完美透视开启成功")
+gg.toast("七岁❤❤小魔女")
 end
 
 function A4()
 gg.clearResults()
 gg.setRanges (gg.REGION_BAD)
-gg.searchNumber("4.7408155e21;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          gg.toast("йљђи—Џе†…е®№:еЋџе€›дЅњиЂ…дёѓеІЃ   е¦‚жњ‰е…¶д»–дЅњиЂ…еќ‡дёєдєЊж”№")
+gg.searchNumber("4.7408155e21;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          gg.toast("隐藏内容:原创作者七岁   如有其他作者均为二改")
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(20)
 gg.editAll("120", gg.TYPE_FLOAT)
@@ -2835,13 +2835,13 @@ gg.toast("90%")   gg.searchNumber("0.04000854492;3.1751651e-29;2", gg.TYPE_FLOAT
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(50)
 gg.editAll("80", gg.TYPE_FLOAT)
-gg.toast("йІе°ЃйЂЏи§†ејЂеђЇж€ђеЉџ")
-gg.toast("дёѓеІЃвќ¤вќ¤е°Џй­”еҐі")
+gg.toast("防封透视开启成功")
+gg.toast("七岁❤❤小魔女")
 end
 
 function A5()
 gg.clearResults()
-gg.setRanges (gg.REGION_BAD)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            gg.toast("йљђи—Џе†…е®№:еЋџе€›дЅњиЂ…дёѓеІЃ   е¦‚жњ‰е…¶д»–дЅњиЂ…еќ‡дёєдєЊж”№")
+gg.setRanges (gg.REGION_BAD)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            gg.toast("隐藏内容:原创作者七岁   如有其他作者均为二改")
 gg.searchNumber('4,141D;4.7408155e21;-5.5693206e-40;4.814603e21;3.7615819e-37;2:', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber('2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(20)
@@ -2860,13 +2860,13 @@ gg.searchNumber('304.00009155273;3.7615819e-37;2;-1;1;-127::240', gg.TYPE_FLOAT,
 gg.searchNumber('2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(1)
 gg.editAll('120', gg.TYPE_FLOAT)
-gg.toast('835йЂЏи§†ејЂеђЇж€ђеЉџ')
-gg.toast("дёѓеІЃвќ¤вќ¤е°Џй­”еҐі")
+gg.toast('835透视开启成功')
+gg.toast("七岁❤❤小魔女")
 end
 
 function A6()
 gg.clearResults()
-gg.setRanges(gg.REGION_BAD)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            gg.toast("йљђи—Џе†…е®№:еЋџе€›дЅњиЂ…дёѓеІЃ   е¦‚жњ‰е…¶д»–дЅњиЂ…еќ‡дёєдєЊж”№")
+gg.setRanges(gg.REGION_BAD)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            gg.toast("隐藏内容:原创作者七岁   如有其他作者均为二改")
 gg.searchNumber("5.1097599e21;2.0;1.6623071e-19;3.6734297e-39;1.66433e10::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
@@ -2890,8 +2890,8 @@ gg.searchNumber("8.2652787e-40",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
 gg.searchNumber("8.2652787e-40",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
 gg.getResults(5201314)
 gg.editAll('8.2652787e-41', gg.TYPE_FLOAT)
-gg.toast('й«йЂљйЄЃйѕ™845йЂЏи§†й»‘дєєејЂеђЇж€ђеЉџ')
-gg.toast("дёѓеІЃвќ¤вќ¤е°Џй­”еҐі")
+gg.toast('高通骁龙845透视黑人开启成功')
+gg.toast("七岁❤❤小魔女")
 end
 
 function A7()
@@ -2901,21 +2901,21 @@ gg.searchNumber("2;-1;0;1;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(20)
 gg.editAll("20", gg.TYPE_FLOAT)
-gg.toast("йЂЏи§†е·Іж€ђеЉџејЂеђЇ45%")
+gg.toast("透视已成功开启45%")
 gg.clearResults()
 gg.setRanges (gg.REGION_BAD)
 gg.searchNumber("4,141D;4.7408155e21;-5.5693206e-40;4.814603e21;3.7615819e-37;2:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(2)
 gg.editAll("100", gg.TYPE_FLOAT)
-gg.toast("ејЂеђЇ75%")
+gg.toast("开启75%")
 gg.clearResults()
 gg.setRanges (gg.REGION_BAD)
 gg.searchNumber("-1.0285578e-38;3.7615819e-37;2;-1;1;-127::300", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(20)
 gg.editAll("120", gg.TYPE_FLOAT)
-gg.toast("йє’йєџйЂЏи§†ејЂеђЇж€ђеЉџ")                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            gg.toast("йљђи—Џе†…е®№:еЋџе€›дЅњиЂ…дёѓеІЃ   е¦‚жњ‰е…¶д»–дЅњиЂ…еќ‡дёєдєЊж”№")
+gg.toast("麒麟透视开启成功")                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            gg.toast("隐藏内容:原创作者七岁   如有其他作者均为二改")
 end
 
 function A8()
@@ -2924,7 +2924,7 @@ gg.searchNumber('10000;0.5', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber('0.5', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(100)
 gg.editAll('0', gg.TYPE_FLOAT)
-gg.toast('иЃ”еЏ‘з§‘йЂЏи§†ејЂеђЇж€ђеЉџжІЎж•€жћње°±е†»з»“дёє0')
+gg.toast('联发科透视开启成功没效果就冻结为0')
 end
 
 function whh835()
@@ -2985,7 +2985,7 @@ gg.searchNumber("304.00009155273F;3.7615819E-37F;2.0F;-1.0F;1.0F;-127.0F::240", 
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(100)
 gg.editAll("120", gg.TYPE_FLOAT)
-gg.toast("гЂЋSuccessгЂЏwallhack")
+gg.toast("『Success』wallhack")
 end
 
 function whn()
@@ -3092,12 +3092,12 @@ end
 
 
 function TC()
-print("пёЏпёЏ Script maked by @senex_seler & @luciq_pw")
+print("️️ Script maked by @senex_seler & @luciq_pw")
 print("  Special thanks to pubgmhacks.online")
 
 print("My telegram group")
 print("@senex_update")
-gg.toast('пёЏThx for using <3пёЏ')
+gg.toast('️Thx for using <3️')
 gg.toast('You can also chat in t.me/senex_community')
 os.exit() 
 end
@@ -3183,7 +3183,7 @@ gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(100)
 gg.editAll("999", gg.TYPE_FLOAT)
 gg.toast("Aimbot used successful!")
-gg.toast("в™Ґ")
+gg.toast("♥")
 end
 
 
